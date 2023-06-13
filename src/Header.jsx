@@ -36,8 +36,14 @@ function Header() {
   };
 
   return (
-    <AppBar position="static">
-      <Container maxWidth="xl">
+    <AppBar position="static"
+      sx={{
+        color: 'white',
+        backgroundColor: '#1A1919',
+        opacity: '0.9',
+      }}
+    >
+      <Container maxWidth="xl" className='custom-color'>
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           <Typography
