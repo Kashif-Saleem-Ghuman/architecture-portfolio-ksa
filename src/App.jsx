@@ -12,7 +12,14 @@ function App() {
       <Header />
 
       <div className="container-hero">
-        <div className="intro">hello</div>
+        <div className="intro">
+          <h3 className="title">Hello there</h3>
+          <h1 className="h1-hero">DESIGN & ARCHITECTURE STUDIO</h1>
+          <div className="btn-wrapper">
+            <button>contact</button>
+            <button>book now</button>
+          </div>
+        </div>
         <div className="pictures-section">
           <div className="shape1"></div>
           <div className="shape2"></div>
