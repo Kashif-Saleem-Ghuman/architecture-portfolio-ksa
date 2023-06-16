@@ -1,6 +1,6 @@
 import { useState } from "react";
 import viteLogo from "/vite.svg";
-import heroImage from "./assets/cut-out1.svg";
+import heroImage from "./assets/cut-outs2.png";
 import "./App.css";
 import Header from "./Header";
 

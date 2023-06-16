@@ -71,11 +71,7 @@ body {
 .image-hero {
   width: 60%;
   display: flex;
-  justify-content: flex-end
-}
-
-.image-hero svg {
-  width: 100%; /* Add this line to make the SVG fill 100% width */
+  justify-content: flex-end;
 }
 
 .image-hero img {
