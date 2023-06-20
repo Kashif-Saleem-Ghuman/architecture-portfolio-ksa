@@ -1,0 +1,196 @@
+
+@media screen and (max-width: 762px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins&family=Roboto:wght@100;300&family=Rubik+Puddles&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@200;300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins&family=Roboto:wght@100;300&family=Rubik+Puddles&display=swap");
+
+  :root {
+    --background-color: #1A1919;
+    --pink-color: #cfb1a6;
+    --bWhite-color: #f6f6f6;
+    --dWhite-color: #f3f3f3;
+  }
+
+  body {
+    background-color: var(--background-color);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: var(--bWhite-color);
+    opacity: 0.9;
+    height: 100vh;
+    overflow-y: hidden;
+  }
+  
+  .container-hero {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: space-around;
+    height: calc(100vh - 100px);
+    overflow-y:hidden; 
+
+  }
+  
+  .title {
+    font-size: 7vw;
+    font-weight: 300;
+    color: var(--dWhite-color);
+    text-align: center;
+    margin-bottom: 2vw;
+  }
+  
+  .intro {
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+    width: 100vw;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  .h1-hero {
+    font-size: 10vw;
+    color: var(--bWhite-color);
+    font-weight: 100;
+    margin-bottom: 1vw;
+    text-align: center;
+    padding: 5vw;
+    line-height: 15vw;
+  }
+  
+  .btn-wrapper {
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    padding: 8vw;
+  }
+  
+  .btn-round-pink {
+    background-color: var(--pink-color);
+    border-radius: 50px;
+    padding: 2vw 4vw;
+    font-size:6vw;
+    font-weight: 300;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .image-hero {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .image-hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+}
+
+
+
+
+@media screen and (min-width: 763px) {
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins&family=Roboto:wght@100;300&family=Rubik+Puddles&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@200;300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins&family=Roboto:wght@100;300&family=Rubik+Puddles&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #1A1919;
+  --pink-color: #cfb1a6;
+  --bWhite-color: #f6f6f6;
+  --dWhite-color: #f3f3f3;
+}
+
+  
+
+
+body {
+  background-color: var(--background-color);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  color: var(--bWhite-color);
+  opacity: 0.9;
+}
+.wrapper {
+  display: flex;
+  height: calc(100vh - 70px);
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-hero {
+  display: flex;
+  width: 100vw;
+  justify-content: flex-end;
+}
+
+.title {
+  font-size: 2vw;
+  font-weight: 300;
+  color: var(--dWhite-color);
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding: 5vw;
+  width: 40%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.h1-hero {
+  font-size: 4vw;
+  color: var(--bWhite-color);
+  font-weight: 100;
+  letter-spacing: 0.2vw;
+  margin-bottom: 1vw;
+}
+
+.btn-wrapper {
+  display: flex;
+  gap: 2vw;
+}
+
+.btn-round-pink {
+  background-color: var(--pink-color);
+  border-radius: 50px;
+  padding: 1vw 2vw;
+  font-size: 1.5vw;
+  font-weight: 300;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.image-hero {
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-hero img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+}
