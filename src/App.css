@@ -25,5 +25,12 @@
     height: 100vh;
     overflow-y: hidden;
   }
+
+@media screen and (max-width: 762px) {
+  #root {
+    height: 90vh;
+  }
+}
   
+
  

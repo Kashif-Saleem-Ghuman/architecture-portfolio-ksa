@@ -24,7 +24,7 @@
     color: var(--bWhite-color);
     opacity: 0.9;
     height: 100vh;
-    overflow-y: hidden;
+    overflow:auto;
   }
   
   .container-hero {
@@ -32,8 +32,7 @@
     flex-direction: column;
     width: 100vw;
     justify-content: space-around;
-    height: calc(100vh - 100px);
-    overflow-y:hidden; 
+    height: calc(var(--vh, 1vh) * 100); 
 
   }
   
