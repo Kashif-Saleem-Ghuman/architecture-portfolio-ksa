@@ -1,7 +1,8 @@
-// import Group from "src/assets/img/group-img.jpg";
-// import TeamWork from "src/assets/img/team-work.jpg";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faArrowDownRight } from '@fortawesome/free-solid-svg-icons';
+import ReactDOM from 'react-dom'
+import Group from "../../assets/img/group-img.jpg";
+import TeamWork from "../../assets/img/team-work.jpg";
+import "./About.css";
+import { FiArrowDownRight } from "react-icons/fi";
 
 const About = () => {
   return (
@@ -10,9 +11,9 @@ const About = () => {
         <h3 className="about-us">About us</h3>
         <div className="About-section">
           <div className="our-group">
-            {/* <div className="circle">
+            <div className="circle">
               <img src={Group} />
-            </div> */}
+            </div>
           </div>
           <div className="group-story">
             <p>
@@ -36,13 +37,13 @@ const About = () => {
               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
               reprehenderit.
             </p>
-            {/* <a href="#" className="see-btn">
-              see more <FontAwesomeIcon icon="fa-solid fa-arrow-down-right" className="icon" />
-            </a> */}
+            <a href="#" className="see-btn">
+             <span>See more </span>  <FiArrowDownRight className="icon"/>
+            </a>
           </div>
-          {/* <div className="team-work">
+          <div className="team-work">
             <img src={TeamWork} />
-          </div> */}
+          </div>
         </div>
       </div>
     </>

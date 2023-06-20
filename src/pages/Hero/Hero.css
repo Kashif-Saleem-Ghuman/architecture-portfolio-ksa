@@ -24,7 +24,6 @@
     color: var(--bWhite-color);
     opacity: 0.9;
     height: 100vh;
-    overflow-y: hidden;
   }
   
   .container-hero {

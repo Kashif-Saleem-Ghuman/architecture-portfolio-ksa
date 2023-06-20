@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins&family=Roboto:wght@100;300&family=Rubik+Puddles&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@200;300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins&family=Roboto:wght@100;300&family=Rubik+Puddles&display=swap");
+
+  :root {
+    --background-color: #1A1919;
+    --pink-color: #cfb1a6;
+    --bWhite-color: #f6f6f6;
+    --dWhite-color: #f3f3f3;
+  }
+
 .About-section-main {
   display: flex;
   flex-direction: column;
@@ -47,6 +57,8 @@
 .group-story {
   /* width: calc(60% - 5vw); */
   width: 60%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .group-story > p {
@@ -55,7 +67,7 @@
   font-weight: 300;
   color: var(--bWhite-color);
   line-height: 1.5;
-  width: 100%;
+  width: 90%;
 }
 
 .team-work {
@@ -78,12 +90,12 @@
   font-size: 1.5vw;
   font-weight: 300;
   color: var(--pink-color);
-  border: none;
   cursor: pointer;
   text-decoration: none;
+  display: flex;
 }
 .icon {
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-weight: 300;
   color: var(--pink-color);
 }
@@ -99,4 +111,36 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media screen and (max-width: 762px) {
+  .About-section-main {
+    margin-left: 0;
+  }
+  .About-section {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .our-group {
+    width: 100%;
+  }
+  .group-story {
+    width: 100%;
+  }
+  .team-work {
+    width: 100%;
+    border-radius: 0;
+  }
+  .team-state {
+    width: 100%;
+  }
+  .team-state > P {
+    width: 100%;
+  }
+  .see-btn {
+    font-size: 1.5vw;
+  }
+  .icon {
+    font-size: 1.5vw;
+  }
 }
