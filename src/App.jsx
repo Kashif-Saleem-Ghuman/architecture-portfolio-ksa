@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <Hero/>  
+      <Hero name="KSA"/>  
       <About />
     </>
   );
