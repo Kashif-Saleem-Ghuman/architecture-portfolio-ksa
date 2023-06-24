@@ -11,8 +11,7 @@ function App() {
   return (
     <>
       <Header />
-      <Hero/>  
-      <Welcome />
+      <Hero name="KSA"/>  
       <About />
     </>
   );
