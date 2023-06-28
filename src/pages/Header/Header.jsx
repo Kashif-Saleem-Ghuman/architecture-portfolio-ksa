@@ -41,6 +41,7 @@ function Header() {
         color: 'white',
         backgroundColor: '#1A1919',
         opacity: '0.9',
+        position: 'fixed',
       }}
     >
       <Container maxWidth="xl" className='custom-color'>
