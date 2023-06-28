@@ -23,7 +23,6 @@
     color: var(--bWhite-color);
     opacity: 0.9;
     height: 100vh;
-    overflow-y: hidden;
   }
 
 @media screen and (max-width: 762px) {
