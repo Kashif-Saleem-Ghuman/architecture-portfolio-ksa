@@ -6,8 +6,6 @@ import Welcome from "./pages/Welcome/Welcome";
 import About from  "./pages/About/About";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Header />
