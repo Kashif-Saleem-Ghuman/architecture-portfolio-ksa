@@ -2,6 +2,7 @@
 // import TeamWork from "src/assets/img/team-work.jpg";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faArrowDownRight } from '@fortawesome/free-solid-svg-icons';
+import "./About.css";
 
 const About = () => {
   return (
