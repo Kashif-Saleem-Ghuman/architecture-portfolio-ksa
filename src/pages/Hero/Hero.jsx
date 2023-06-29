@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import heroImage from "../../assets/cut-outs2.png";
 import "./Hero.css";
 
@@ -7,12 +7,12 @@ const Hero = (props) => {
   useEffect(() => {
     const updateVh = () => {
       let vh = window.innerHeight * 0.01;
-      document.documentElement.style.setProperty('--vh', `${vh}px`);
+      document.documentElement.style.setProperty("--vh", `${vh}px`);
     };
-    window.addEventListener('resize', updateVh);
+    window.addEventListener("resize", updateVh);
     updateVh();
     return () => {
-      window.removeEventListener('resize', updateVh);
+      window.removeEventListener("resize", updateVh);
     };
   }, []);
   return (
@@ -22,12 +22,13 @@ const Hero = (props) => {
           <h3 className="title">Welcome to</h3>
           <h1 className="h1-hero">{props.name} DESIGN & ARCHITECTURE STUDIO</h1>
           <div className="btn-wrapper">
-            <button 
-            onClick={() => setInTouch(true)}
-            disabled={inTouch}
-            className="btn-round-pink">
-              {!inTouch? 'Get in touch': 'Thank you!'}
-              </button>
+            <button
+              onClick={() => setInTouch(true)}
+              disabled={inTouch}
+              className="btn-round-pink"
+            >
+              {!inTouch ? "Get in touch" : "Thanks!"}
+            </button>
           </div>
         </div>
         <div className="image-hero">
