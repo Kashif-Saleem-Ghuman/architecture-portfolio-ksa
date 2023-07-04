@@ -27,7 +27,7 @@ const Hero = (props) => {
               disabled={inTouch}
               className="btn-round-pink"
             >
-              {!inTouch ? "Get in touch" : "Thanks!"}
+              {!inTouch ? "Get in touch" : "Thankyou!"}
             </button>
           </div>
         </div>
